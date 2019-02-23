@@ -45,6 +45,11 @@ class NavBar {
 		addLi(ulPlayers, "races.html", "Races");
 		addDivider(ulPlayers);
 		addLi(ulPlayers, "statgen.html", "Statgen");
+
+		// added character sheet
+		addLi(ulPlayers, "charsheet.html", "Character Sheet")
+		// end add
+
 		addDivider(ulPlayers);
 		addLi(ulPlayers, "lifegen.html", "This Is Your Life");
 		addLi(ulPlayers, "names.html", "Names");
